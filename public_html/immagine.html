@@ -10,7 +10,17 @@
         <div>Visualizzazione di un'immagine</div>
         <!--per caricare un'immagine il tag che si usa è img che si chiude subito
         se devo modificare la misura uso tag width=""-->
-        <img src="gennaio.jpeg" width="200"/>
+        <img src="gennaio.jpeg" width="200"/> <br/>
+        <img src="gennaio.jpeg" width="400" height="250"/> <br/>
+        <img src="gennaio.jpeg" width="700" height="450"/> <br/>
+        
+    <picture>
+        <source media="(min-width: 800px)" srcset="luglio.jpeg">
+        <source media="(min-width: 600px)" srcset="giugno.jpeg">
+        <source media="(min-width: 200px)" srcset="settembre.jpeg">        
+        <img src="agosto.jpeg" alt="paesaggio" title="paesaggio">
+    </picture>
+        
         
         
     </body>
